@@ -1,0 +1,50 @@
+### Variables
+@baseUrl = http://localhost:8080/api/tareas
+
+###
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "titulo": "Preparar presentacion",
+    "descripcion": "Slides para la reunion del viernes",
+    "prioridad": "ALTA",
+    "duracionMinutos": 120,
+    "fechaLimite": "2026-04-20"
+}
+
+###
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "titulo": "Responder email urgente",
+    "descripcion": "Confirmar asistencia al evento",
+    "prioridad": "MEDIA",
+    "duracionMinutos": 5,
+    "fechaLimite": "2026-04-16"
+}
+
+###
+
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+    "titulo": "Estudiar Java",
+    "descripcion": "Repasar Streams y Lambdas",
+    "prioridad": "BAJA",
+    "duracionMinutos": 90,
+    "fechaLimite": "2026-04-30",
+    "vecesPospuesta": 3
+}
+
+###
+
+GET {{baseUrl}}
+
+###
+
+GET {{baseUrl}}/plan-diario
