@@ -27,19 +27,6 @@ El backend expone una API REST documentada y la app cliente (Android nativa) con
 | Hibernate | MVVM | |
 | Lombok | | |
 
-## 📸 Capturas de Pantalla
-
-<p align="center">
-  <img src="capturas/dayoptimizer_splash.png" width="200" />
-  <img src="capturas/dayoptimizer_lista.png" width="200" />
-  <img src="capturas/dayoptimizer_detalle.png" width="200" />
-  <img src="capturas/dayoptimizer_add.png" width="200" />
-</p>
-<p align="center">
-  <img src="capturas/dayoptimizer_h2_console.png" width="400" />
-  <img src="capturas/dayoptimizer_api_test.png" width="400" />
-</p>
-
 ## 🚀 Cómo Ejecutar Localmente
 
 ### Backend (Spring Boot)
